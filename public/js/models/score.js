@@ -11,5 +11,5 @@ define([
         }
     });
 
-    return Model;
+    return new Model();
 });
