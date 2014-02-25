@@ -24,6 +24,7 @@ Backbone, MainView, ScoreboardView, GameView){
         gameAction: function () {
             MainView.hide();
             ScoreboardView.hide();
+            GameView.render();
             GameView.show();
         }
     });

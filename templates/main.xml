@@ -1,11 +1,18 @@
 <fest:template xmlns:fest="http://fest.mail.ru"
     context_name="json">
-    <div>
-        <h1>Epic Game</h1>
-        <h3>Main menu</h3>
-        <ul>
-        	<li><a href="#scoreboard" class="js-scoreboard">Score board</a></li>
-        	<li><a href="#game" class="js-start-game">Start game</a></li>
-        </ul>
-    </div>
+        <div class="content">
+            <br/>
+            <div class="content__title">_</div>
+            <br/>
+            <div class="content__main">Main menu</div>
+            <DL>
+            <form>
+                <DT><a href="#scoreboard" class="content__list" >Score board</a></DT>
+            	<br/>
+            	<DT><a href="#game" class="content__list">Start game</a></DT>
+            </form>
+            <br/>
+            </DL>
+        </div>
+   
 </fest:template>
