@@ -2,11 +2,13 @@
     context_name="json">
     <div>
         <h1>Epic Game</h1>
-        <fest:for iterate="json.scores" index="i">
-        	<fest:value>json.scores[i].name</fest:value>
-        	<fest:value>json.scores[i].score</fest:value>
-        	<br />
-        </fest:for>
+        <table>
+            <fest:for iterate="json.scores" index="i">
+            	<fest:value>json.scores[i].name</fest:value>
+            	<fest:value>json.scores[i].score</fest:value>
+            	<br />
+            </fest:for>
+        </table>
         <ul>
         	<li><a href="#main" class="js-back">Back</a></li>
         </ul>
